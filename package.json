@@ -1,13 +1,15 @@
 {
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.6.7"
   },
   "name": "issue-tracker",
   "version": "1.0.0",
   "description": "Issue tracker ",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
